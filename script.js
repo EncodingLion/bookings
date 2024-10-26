@@ -15,7 +15,7 @@ chrome.storage.local.get(['settingPropertyInfo', 'settingNotifications', 'hSetti
     const notifications = result.settingNotifications || false; // Default to false if not set
     const hNotifications = result.hSettingNotifications || false; // Default to false if not set
     const autoRefresh = result.settingAutoRefresh || '60000'; // Default to 'none' if not set
-    const hAutoRefresh = result.hSettingAutoRefresh || '5000'; // Default to 'none' if not set
+    const hAutoRefresh = result.hSettingAutoRefresh || '60000'; // Default to 'none' if not set
 
     if (hNotifications) {
         setInterval(() => {
