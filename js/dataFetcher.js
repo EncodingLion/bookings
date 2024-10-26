@@ -75,6 +75,8 @@
     });
 }
 
+window.fetchData = fetchData;
+
 
 
 function onDataLoaded(){
