@@ -1,6 +1,6 @@
 var body = document.createElement("div");
     body.innerHTML = `  <!-- Add this button for opening the panel -->
-    <button id="togglePanelBtn" class="btn btn-primary" style="position: fixed; top: 20px; right: 20px; z-index: 999;">
+    <button id="togglePanelBtn" class="btn btn-primary" style="display:none; position: fixed; top: 20px; right: 20px; z-index: 999;">
         Show Panel
     </button>
     <div class="container mt-5">
